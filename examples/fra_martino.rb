@@ -1,3 +1,4 @@
+#fra martino
 def framartino
   2.times do
     play_pattern_timed [:c, :d, :e, :c], [0.5]

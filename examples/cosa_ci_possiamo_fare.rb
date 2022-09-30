@@ -1,5 +1,4 @@
 #cosa ci possiamo fare
-
 use_bpm 45
 
 live_loop :riff do stop

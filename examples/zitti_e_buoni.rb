@@ -1,5 +1,4 @@
 #Zitti e buoni
-
 use_bpm 103
 
 live_loop :metro do

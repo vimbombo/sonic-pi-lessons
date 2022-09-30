@@ -1,7 +1,6 @@
 # https://www.youtube.com/watch?v=_YRF9dtmA84
 # https://github.com/mrbombmusic/sonic_pi_improv
 
-
 live_loop :prog do
   #chord progression
   8.times do

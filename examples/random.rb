@@ -1,3 +1,5 @@
+#semirandom
+
 notes = (ring :c4, :e4, :g4, :e4, :c4)
 notes = chord(:a4, :major)
 

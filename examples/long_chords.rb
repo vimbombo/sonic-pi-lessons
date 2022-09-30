@@ -1,3 +1,5 @@
+#long chords
+
 live_loop :foo do
   use_synth :dsaw
   play :c2, release: 8, cutoff: rrand(70, 130)
