@@ -1,0 +1,44 @@
+use_bpm 180
+use_synth :fm
+
+live_loop :primo do
+  melodia
+end
+
+
+
+live_loop :accompagna do
+  use_synth :piano
+  4.times do
+    play chord(:c, :major), amp: 3, sustain: 2
+    sleep 2
+  end
+  4.times do
+    play chord(:e, :major), amp: 3, sustain: 2
+    sleep 2
+  end
+  
+end
+
+
+define :melodia do
+  2.times do
+    play_pattern_timed [:c, :d, :e, :c], [1]
+  end
+  
+  2.times do
+    play_pattern_timed [:e, :f, :g], [1, 1, 2]
+  end
+  
+  2.times do
+    play_pattern_timed [:g, :a, :g, :f], [0.5]
+    play_pattern_timed [:e, :c], [1]
+  end
+  
+  2.times do
+    play_pattern_timed [:d, :g3, :c], [1, 1, 2]
+  end
+end
+
+
+
